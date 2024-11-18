@@ -1,0 +1,506 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+ul li a:hover {
+    color: green;
+    transition: 2s;
+    background-color: aliceblue;
+}
+
+button {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 2px solid black;
+
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.mainbox {
+    width: 100%;
+    height: 900px;
+    background-image: url(fitness.jpg);
+    background-size: cover;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-attachment: fixed;
+
+
+
+}
+
+.box1 h1 {
+    font-weight: bold;
+    font-size: 100px;
+    align-items: center;
+    display: flex;
+    /* padding-left: 90px; */
+
+
+}
+
+.box1 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-left: 190px; */
+}
+
+.btn1 {
+    width: 20%;
+    height: 20pxs;
+    margin-left: 180px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+
+
+
+
+}
+
+.btn2 {
+    width: 20%;
+    height: 20pxs;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+
+
+
+
+}
+
+.box1 img {
+    margin-right: 990px;
+
+}
+
+.box2 {
+    width: 100%;
+    height: 700px;
+    background-color: blueviolet;
+}
+
+
+.box2 h1 {
+
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    font-family: lucida Sans typewriter;
+}
+
+.box2 h2 {
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+
+}
+
+.box2 h3 {
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.box2 h4 {
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    font-family: Arial;
+    margin-left: 90px;
+
+}
+
+/* .mainbox1 {
+    width: 100%;
+    height: 900px;
+
+    background-size: cover;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.box3 {
+    width: 100%;
+    height: 900px;
+    background-color: aqua;
+
+
+}
+
+.box3 h1 {
+
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: lucida Sans typewriter;
+}
+
+
+.img {
+    margin-left: 90px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:100px;
+    padding-top: 10px;
+    padding:200px 200px ;
+    height:600px;
+}
+.heading1{
+    width: 20%;
+    height: 300px;
+    background-color: aqua;
+    font-size: 30px;
+   margin-left: 10px;
+   justify-content: space-around;
+   color: black;
+    padding-left: 251px;
+}
+.heading1 p{
+
+font-size:15px;
+padding-left:15%;
+font-weight: bold;
+}
+.heading2{
+    width: 90%;
+    height: 400px;
+    background-color: yellow;
+    font-size: 30px;
+   margin-left: 850px;
+   justify-content: space-around;
+scroll-margin-top: 500px;
+
+    padding-left: 150px;
+}
+.heading2 p{
+
+font-size:15px;
+padding-left:15px;
+
+}
+ */
+
+ #instruction{
+    width: 100%;
+    height: 900px;
+    background-color: aqua;
+    padding-top: 30px;
+ }
+ #instruction h1{
+    font-weight: bold;
+    font-size: 50px;
+   text-align: center;
+    color: black;
+    font-family: lucida Sans typewriter;
+ }
+
+.instrution_grp{
+    height: 80%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+.instrution_grp .card{
+    height: 80%;
+    width: 30%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly ;
+    text-align: center;
+    padding: 20px;
+    transform: scale(1.2);
+    
+}
+.instrution_grp .card .img1{
+    height: 60%;
+    width: 80%;
+    background: url('/1.jpg') no-repeat center/cover;
+}
+.instrution_grp .card .img2{
+    height: 60%;
+    width: 80%;
+    background: url('/2.jpg') no-repeat center/cover;
+}
+
+#img1:hover{
+    background: url('/3.jpg') no-repeat center/cover;
+}
+#img2:hover{
+    background: url('/4.jpg') no-repeat center/cover;
+}
+
+.box4 {
+    width: 100%;
+    height: 700px;
+    background-color: burlywood;
+    padding-top: 100px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.box4 .mr{
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.box4 .md{
+    margin-left: 50px;
+}
+
+.box4 h1 {
+    font-weight: bold;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+
+}
+
+.box4 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+
+
+}
+
+.box4 h5 {
+
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+
+
+
+}
+
+.box5 {
+    width: 100%;
+    height: 300px;
+    background-color: palevioletred;
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fs{
+    font-size: 30px;
+}
+.se{
+    height: 200px;
+    width: 300px;
+  
+    line-height: 40px;
+   .heading{
+    width: 100%;
+    height: 50px;
+    font-size:20px ;
+    background-color:palevioletred;
+   }
+    
+}
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: green;
+    display: flex;
+}
+
+.map {
+    width: 50%;
+    height: 200px;
+    background-color: #897899;
+}
+
+.form {
+    width: 50%;
+    height: 500px;
+    background-color: palevioletred;
+}
+label
+{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+input
+{
+    display: block;
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 7px 2px black;
+}
+.form-container
+{   
+    width: 700px;
+    height: 400px;
+    /* background-color: pink; */
+    margin: auto;
+    padding: 100px 200px;
+    box-sizing: border-box;
+    gap: 30px;
+}
+.button
+{   
+    height: 30px;
+    width: 100px;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+
+
+.box7{
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box7 h1{
+   color:black;
+   cursor: pointer;
+   font-size: 20px;
+   margin-right: 400px;
+   padding-left: 30px;
+    
+}
+.box7 h2{
+    color: black;
+    font-size: 50px;
+    
+}
+.form1 button{
+    /* width: 50%; */
+    /* height: 500px; */
+    background-color:  aquamarine;
+    height: 50px;
+    width: 80%;
+    /* border-radius: 9px; */
+    /* margin-top: 10px; */
+    border-radius: 10px;
+    color: black;
+   
+}
+/* label
+{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+input
+{
+    display: block;
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 7px 2px black;
+} */
+/* .form-container */
+/* {    */
+    /* width: 700px; */
+    /* height: 400px; */
+    /* background-color: pink; */
+    /* margin: auto; */
+    /* padding: 100px 200px; */
+    /* box-sizing: border-box; */
+    /* gap: 30px; */
+/* } */
+/* button
+{   
+    height: 50px;
+    width: 50%;
+    border-radius: 9px;
+    /* margin-top: 10px; */
+    /* border-radius: 10px; */
+/* } */
